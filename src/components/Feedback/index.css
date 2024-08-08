@@ -1,0 +1,56 @@
+.bg-container {
+  background-image: linear-gradient(to left, #ffc0bb, #ffeeee);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 50%;
+  height: 40%;
+  text-align: center;
+}
+
+.feedback-question {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.emoji-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container-emoji {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-emoji {
+  height: 40px;
+  width: 40px;
+}
+
+.thanks {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.description{
+  color: #1e293b;
+  font-size: 20px;
+  padding: 10px;
+}
